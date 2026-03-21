@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -218,6 +222,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 5535ce375fea1a64a82192bcedb7ffd2, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1607433127}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &38002524 stripped
@@ -699,6 +731,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -783,6 +819,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 83f037ba31c0349459134473770c35dc, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1844932010}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &133192879 stripped
@@ -800,6 +864,10 @@ PrefabInstance:
     - target: {fileID: 91345085724670936, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Name
       value: SkillButton (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
@@ -885,6 +953,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 38106e76b2950ea46a090bc014eeca87, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1985972976}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &227214533 stripped
@@ -976,6 +1072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1060,6 +1160,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 0badd5d5da6aa2c48a68dee6c84392a4, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1862622341}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &372359746 stripped
@@ -1186,6 +1314,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1270,6 +1402,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: e59ee42e34dbc7f4d99c3176d76c9f90, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1494912548}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &458617241 stripped
@@ -1679,6 +1839,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 08a424aaa7ac73f4285446a175bbffea, type: 3}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1765,15 +1929,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_text
-      value: locked
+      value: Locked
       objectReference: {fileID: 0}
     - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 38f9f4d222957ee479d33c351cbc0ba9, type: 3}
+      objectReference: {fileID: 21300000, guid: 515d262deb860c949b153f9e49e8434a, type: 3}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8411619370761488983, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_SizeDelta.x
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 83f037ba31c0349459134473770c35dc, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: isUnlocked
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
@@ -5952,7 +6136,7 @@ Tilemap:
       - {fileID: -1529577749, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: 587680969, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: -288281665, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -9, y: -17, z: 0}
@@ -6686,7 +6870,7 @@ Tilemap:
       - {fileID: -1696346956, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: 883725469, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: -693934653, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -35, y: -5, z: 0}
@@ -6904,7 +7088,7 @@ Tilemap:
       - {fileID: -1529577749, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: 587680969, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: -288281665, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -35, y: -1, z: 0}
@@ -7034,7 +7218,7 @@ Tilemap:
       - {fileID: 1435358572, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: -1101248479, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: -813341555, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 28, y: 1, z: 0}
@@ -7188,7 +7372,7 @@ Tilemap:
       - {fileID: -1696346956, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: 883725469, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: -693934653, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 34, y: 4, z: 0}
@@ -7726,7 +7910,7 @@ Tilemap:
       - {fileID: -1696346956, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: 883725469, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: -693934653, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -27, y: 17, z: 0}
@@ -8230,7 +8414,7 @@ Tilemap:
       - {fileID: 634064406, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: -1238157516, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: -484940363, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -18, y: 20, z: 0}
@@ -8496,7 +8680,7 @@ Tilemap:
       - {fileID: -1696346956, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: 883725469, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: -693934653, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -8, y: 21, z: 0}
@@ -8566,7 +8750,7 @@ Tilemap:
       - {fileID: 634064406, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: -1238157516, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: -484940363, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 8, y: 21, z: 0}
@@ -8706,7 +8890,7 @@ Tilemap:
       - {fileID: 634064406, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: -1238157516, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
       - {fileID: -484940363, guid: 9caf1a9c92c08934784bc12da4a86091, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 4, y: 22, z: 0}
@@ -9581,7 +9765,7 @@ Tilemap:
       - {fileID: -2062830742, guid: 62b167e774270e94cbc51fb85834418e, type: 3}
       - {fileID: -856146657, guid: 62b167e774270e94cbc51fb85834418e, type: 3}
       - {fileID: -1311330880, guid: 62b167e774270e94cbc51fb85834418e, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
@@ -9794,6 +9978,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -9878,6 +10066,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: f6ad32b8d9bf09b48ba93aa441e878f7, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1848881657}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &800134488 stripped
@@ -9885,6 +10101,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
   m_PrefabInstance: {fileID: 800134487}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &800134489 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 800134487}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &867593278
 GameObject:
   m_ObjectHideFlags: 0
@@ -12182,6 +12409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -12266,6 +12497,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 21a2895d82e7793498f7984d0657d153, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 2123731147}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &919398196 stripped
@@ -12283,6 +12542,10 @@ PrefabInstance:
     - target: {fileID: 91345085724670936, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Name
       value: SkillButton (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
@@ -12368,6 +12631,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: f6ad32b8d9bf09b48ba93aa441e878f7, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 981205354}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &950668499 stripped
@@ -12375,6 +12666,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
   m_PrefabInstance: {fileID: 950668498}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &950668500 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 950668498}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &955768750
 GameObject:
   m_ObjectHideFlags: 0
@@ -36581,6 +36883,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &981205354 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 372359745}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000587880
 GameObject:
   m_ObjectHideFlags: 0
@@ -37877,7 +38190,7 @@ Tilemap:
       - {fileID: -2066398686, guid: 083e7d044f1730a48a0cb4f3f93a755b, type: 3}
       - {fileID: -1040588451, guid: 083e7d044f1730a48a0cb4f3f93a755b, type: 3}
       - {fileID: 1127522704, guid: 083e7d044f1730a48a0cb4f3f93a755b, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 13, y: 11, z: 0}
@@ -38067,6 +38380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -38151,6 +38468,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 0badd5d5da6aa2c48a68dee6c84392a4, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 2076026720}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &1167913785 stripped
@@ -38655,6 +39000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -38739,6 +39088,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 38106e76b2950ea46a090bc014eeca87, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1343303026}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &1206352597 stripped
@@ -38746,6 +39123,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
   m_PrefabInstance: {fileID: 1206352596}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1206352598 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 1206352596}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1247743413
 GameObject:
   m_ObjectHideFlags: 0
@@ -38909,6 +39297,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1343303026 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 133192878}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1366947421
 GameObject:
   m_ObjectHideFlags: 0
@@ -39159,6 +39558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -39243,6 +39646,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 21a2895d82e7793498f7984d0657d153, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1759992214}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &1494912547 stripped
@@ -39250,6 +39681,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
   m_PrefabInstance: {fileID: 1494912546}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1494912548 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 1494912546}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1497055555
 GameObject:
   m_ObjectHideFlags: 0
@@ -39629,6 +40071,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8471401719168826601, guid: 682dea69f7f1120428f866d1ac48834e, type: 3}
   m_PrefabInstance: {fileID: 99983597}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1559876712 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 227214532}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1586100950
 GameObject:
   m_ObjectHideFlags: 0
@@ -39696,6 +40149,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1607433127 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 458617240}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1611464242
 GameObject:
   m_ObjectHideFlags: 0
@@ -39816,6 +40280,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -39900,6 +40368,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 38106e76b2950ea46a090bc014eeca87, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 800134489}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &1672771595 stripped
@@ -39907,6 +40403,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
   m_PrefabInstance: {fileID: 1672771594}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1672771596 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 1672771594}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1707716426
 GameObject:
   m_ObjectHideFlags: 0
@@ -40108,6 +40615,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -40192,6 +40703,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: e59ee42e34dbc7f4d99c3176d76c9f90, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 6455884374875805008}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &1759992213 stripped
@@ -40199,6 +40738,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
   m_PrefabInstance: {fileID: 1759992212}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1759992214 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 1759992212}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1761844859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40209,6 +40759,10 @@ PrefabInstance:
     - target: {fileID: 91345085724670936, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Name
       value: SkillButton (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
@@ -40294,6 +40848,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: e59ee42e34dbc7f4d99c3176d76c9f90, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1672771596}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &1761844860 stripped
@@ -40301,6 +40883,28 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
   m_PrefabInstance: {fileID: 1761844859}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1761844861 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 1761844859}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1785118888 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 38002523}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1812178524
 GameObject:
   m_ObjectHideFlags: 0
@@ -40743,6 +41347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -40827,6 +41435,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 5535ce375fea1a64a82192bcedb7ffd2, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1938849525}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &1844932009 stripped
@@ -40834,6 +41470,28 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
   m_PrefabInstance: {fileID: 1844932008}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1844932010 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 1844932008}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1848881657 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 629107982}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1858450965
 GameObject:
   m_ObjectHideFlags: 0
@@ -40932,6 +41590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -41016,6 +41678,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 38106e76b2950ea46a090bc014eeca87, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 2008987882}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &1862622340 stripped
@@ -41023,6 +41713,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
   m_PrefabInstance: {fileID: 1862622339}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1862622341 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 1862622339}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1878994985
 GameObject:
   m_ObjectHideFlags: 0
@@ -47004,6 +47705,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1879250673 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 1167913784}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1889293837
 GameObject:
   m_ObjectHideFlags: 0
@@ -47017,6 +47729,7 @@ GameObject:
   - component: {fileID: 1889293840}
   - component: {fileID: 1889293839}
   - component: {fileID: 1889293842}
+  - component: {fileID: 1889293843}
   m_Layer: 0
   m_Name: SkillsCanvas
   m_TagString: Untagged
@@ -47115,9 +47828,48 @@ CanvasGroup:
   m_GameObject: {fileID: 1889293837}
   m_Enabled: 1
   m_Alpha: 1
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &1889293843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889293837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e8397853a3afb94790dfc0722d59207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillSlots:
+  - {fileID: 6455884374875805008}
+  - {fileID: 1938849525}
+  - {fileID: 2121696387}
+  - {fileID: 1759992214}
+  - {fileID: 1844932010}
+  - {fileID: 1494912548}
+  - {fileID: 2076026720}
+  - {fileID: 1343303026}
+  - {fileID: 1607433127}
+  - {fileID: 1879250673}
+  - {fileID: 1206352598}
+  - {fileID: 1785118888}
+  - {fileID: 1848881657}
+  - {fileID: 2008987882}
+  - {fileID: 1862622341}
+  - {fileID: 800134489}
+  - {fileID: 2123731147}
+  - {fileID: 981205354}
+  - {fileID: 1672771596}
+  - {fileID: 1985972976}
+  - {fileID: 950668500}
+  - {fileID: 1761844861}
+  - {fileID: 1559876712}
+  - {fileID: 1926202610}
+  pointsText: {fileID: 1964064013}
+  availablePoints: 5
 --- !u!1 &1902838509
 GameObject:
   m_ObjectHideFlags: 0
@@ -47415,6 +48167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -47499,6 +48255,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 179bc8eb968ad3243be51a162316329e, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 950668500}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &1926202609 stripped
@@ -47506,6 +48290,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
   m_PrefabInstance: {fileID: 1926202608}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1926202610 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 1926202608}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1938849523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47601,6 +48396,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: 0/5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_margin.x
+      value: -11.938934
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 0badd5d5da6aa2c48a68dee6c84392a4, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: isUnlocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 6455884374875805008}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &1938849524 stripped
@@ -47608,6 +48439,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
   m_PrefabInstance: {fileID: 1938849523}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1938849525 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 1938849523}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1964064011
 GameObject:
   m_ObjectHideFlags: 0
@@ -47743,6 +48585,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964064011}
   m_CullTransparentMesh: 1
+--- !u!114 &1985972976 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 919398195}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1996474990 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8471401719168826601, guid: 682dea69f7f1120428f866d1ac48834e, type: 3}
@@ -48005,6 +48858,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -48089,6 +48946,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 0badd5d5da6aa2c48a68dee6c84392a4, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1848881657}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &2008987881 stripped
@@ -48096,6 +48981,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
   m_PrefabInstance: {fileID: 2008987880}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2008987882 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 2008987880}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2067194725
 GameObject:
   m_ObjectHideFlags: 0
@@ -48397,6 +49293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -48481,6 +49381,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: f6ad32b8d9bf09b48ba93aa441e878f7, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1759992214}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &2076026719 stripped
@@ -48488,6 +49416,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
   m_PrefabInstance: {fileID: 2076026718}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2076026720 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 2076026718}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2121696385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48498,6 +49437,10 @@ PrefabInstance:
     - target: {fileID: 91345085724670936, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Name
       value: SkillButton (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
@@ -48583,6 +49526,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 38106e76b2950ea46a090bc014eeca87, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: isUnlocked
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1938849525}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &2121696386 stripped
@@ -48590,6 +49565,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
   m_PrefabInstance: {fileID: 2121696385}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2121696387 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 2121696385}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2123731145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48600,6 +49586,10 @@ PrefabInstance:
     - target: {fileID: 91345085724670936, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Name
       value: SkillButton (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505681026514038599, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
@@ -48685,6 +49675,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6958342323214912270, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327122950063426453, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: e59ee42e34dbc7f4d99c3176d76c9f90, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 2008987882}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &2123731146 stripped
@@ -48692,6 +49710,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
   m_PrefabInstance: {fileID: 2123731145}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2123731147 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 2123731145}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6455884374875805006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48702,6 +49731,10 @@ PrefabInstance:
     - target: {fileID: 91345085724670936, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Name
       value: SkillButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 91345085724670936, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
       propertyPath: m_Pivot.x
@@ -48787,6 +49820,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 83f037ba31c0349459134473770c35dc, type: 2}
+    - target: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+      propertyPath: isUnlocked
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
 --- !u!224 &6455884374875805007 stripped
@@ -48794,6 +49835,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6334835399248728607, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
   m_PrefabInstance: {fileID: 6455884374875805006}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6455884374875805008 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946033583163644091, guid: 33a22359c65e8104d8108c06d306b5d2, type: 3}
+  m_PrefabInstance: {fileID: 6455884374875805006}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8565028351499639595
 PrefabInstance:
   m_ObjectHideFlags: 0

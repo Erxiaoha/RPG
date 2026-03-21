@@ -103,6 +103,9 @@
     <Compile Include="Assets\Scripts\PlayerScrips\StatsManager.cs" />
     <Compile Include="Assets\Scripts\PlayerScrips\StatsUI.cs" />
     <Compile Include="Assets\Scripts\PlayerScrips\ExpManager.cs" />
+    <Compile Include="Assets\Scripts\SkillTree\SkillSO.cs" />
+    <Compile Include="Assets\Scripts\SkillTree\SkillSlot.cs" />
+    <Compile Include="Assets\Scripts\SkillTree\SkillTreeManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

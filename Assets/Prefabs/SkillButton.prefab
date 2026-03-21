@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6306530298110442679}
   - component: {fileID: 1276030025653529615}
   - component: {fileID: 5505681026514038599}
+  - component: {fileID: 8946033583163644091}
   m_Layer: 0
   m_Name: SkillButton
   m_TagString: Untagged
@@ -123,6 +124,24 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8946033583163644091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91345085724670936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ce895ed2561049a7ba5d243f09ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillSO: {fileID: 0}
+  currentLevel: 0
+  isUnlocked: 0
+  skillIcon: {fileID: 8327122950063426453}
+  skillLevelText: {fileID: 6958342323214912270}
+  skillButton: {fileID: 5505681026514038599}
 --- !u!1 &1265778875942163778
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,7 +271,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -4.4530945, y: 0, z: 3.6538162, w: 0}
+  m_margin: {x: -10.618912, y: 0, z: 3.6538162, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
