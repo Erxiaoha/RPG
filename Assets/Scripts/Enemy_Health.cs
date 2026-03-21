@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Enemy_Health : MonoBehaviour
 {
+    public int ExpReward = 3;
+    public delegate void MonsterDefeat(int exp); //委托
+    public static event MonsterDefeat onMonsterDefeated; //事件
     public int currentHealth;
     public int maxHealth;
 
@@ -21,7 +24,9 @@ public class Enemy_Health : MonoBehaviour
         }
         else if(currentHealth <=0)
         {
+            onMonsterDefeated(ExpReward); // 事件在这里被调用
             Destroy(gameObject);
         }
     }
+
 }
