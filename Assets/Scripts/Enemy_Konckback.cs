@@ -12,10 +12,10 @@ public class Enemy_Konckback : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         enemy_Movement = GetComponent<Enemy_Movement>();
     }
-    public void Knockback(Transform playerTransform, float knockbackForce, float knockbackTime, float stunTime)
+    public void Knockback(Transform forceTransform, float knockbackForce, float knockbackTime, float stunTime)
     {
         enemy_Movement.ChangeState(EnemyState.Knocback);
-        Vector2 direction = (transform.position - playerTransform.position).normalized;  // 玩家指向敌人
+        Vector2 direction = (transform.position - forceTransform.position).normalized;  // 玩家指向敌人
         rb.velocity = direction * knockbackForce;
         StartCoroutine(StunTimer(knockbackTime, stunTime));
         Debug.Log("击退已应用");

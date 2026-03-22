@@ -53,7 +53,7 @@ public class Player_Combat : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(attackPoint.position, StatsManager.Instance.weaponRange);
+            //Gizmos.color = Color.red;
+            //Gizmos.DrawWireSphere(attackPoint.position, StatsManager.Instance.weaponRange);
     }
 }
