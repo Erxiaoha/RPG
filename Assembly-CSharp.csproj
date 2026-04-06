@@ -56,12 +56,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\SkillTree\SkillManager.cs" />
+    <Compile Include="Assets\Scripts\Inventory &amp; Shop\InventoryManager.cs" />
     <Compile Include="Assets\Scripts\PlayerScrips\ExpManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\Scripts\PlayerScrips\PlayerMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Scripts\Tilemap Scrips\Elevation_Exit.cs" />
     <Compile Include="Assets\Scripts\PlayerScrips\Player_Combat.cs" />
+    <Compile Include="Assets\Scripts\PlayerScrips\Player_Bow.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\Scripts\PlayerScrips\StatsUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
@@ -78,11 +81,13 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Enemy_Health.cs" />
+    <Compile Include="Assets\Scripts\PlayerScrips\Player_ChangeEquipment.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\Scripts\SkillTree\ToggleSkillTree.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
@@ -90,6 +95,7 @@
     <Compile Include="Assets\Scripts\Enemy_Konckback.cs" />
     <Compile Include="Assets\Scripts\SkillTree\SkillSlot.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\Scripts\Inventory &amp; Shop\ItemSO.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Scripts\SkillTree\SkillTreeManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
@@ -97,20 +103,34 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Scripts\Tilemap Scrips\CameraFollow.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Scripts\Inventory &amp; Shop\InventorySlot.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Scripts\PlayerScrips\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\Inventory &amp; Shop\Loot.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\Scripts\PlayerScrips\Arrow.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Scripts\Tilemap Scrips\Elevation_Entry.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Scripts\SkillTree\SkillManager.cs" />
-    <Compile Include="Assets\Scripts\SkillTree\ToggleSkillTree.cs" />
-    <Compile Include="Assets\Scripts\PlayerScrips\Arrow.cs" />
-    <Compile Include="Assets\Scripts\PlayerScrips\Player_Bow.cs" />
-    <Compile Include="Assets\Scripts\PlayerScrips\Player_ChangeEquipment.cs" />
+    <Compile Include="Assets\Scripts\Inventory &amp; Shop\UseItem.cs" />
+    <Compile Include="Assets\Scripts\Inventory &amp; Shop\Shop\ShopSlot.cs" />
+    <Compile Include="Assets\Scripts\Inventory &amp; Shop\Shop\ShopManager.cs" />
+    <Compile Include="Assets\Scripts\Inventory &amp; Shop\Shop\ShopInfo.cs" />
+    <Compile Include="Assets\Scripts\Inventory &amp; Shop\Shop\ShopKeeper.cs" />
+    <Compile Include="Assets\Scripts\Inventory &amp; Shop\Shop\ShopButtonToggles.cs" />
+    <Compile Include="Assets\Scripts\SceneChange\SceneChanger.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\CameraScripts\ConfinerFinder.cs" />
+    <Compile Include="Assets\Scripts\NPC Scripts\NPC States\NPC_Patrol.cs" />
+    <Compile Include="Assets\Scripts\NPC Scripts\NPC States\NPC_Wander.cs" />
+    <Compile Include="Assets\Scripts\NPC Scripts\NPC States\NPC_Talk.cs" />
+    <Compile Include="Assets\Scripts\NPC Scripts\NPC States\NPC.cs" />
+    <Compile Include="Assets\Scripts\NPC Scripts\ActorSOs\ActorSO.cs" />
+    <Compile Include="Assets\Scripts\NPC Scripts\DialogueSO\DialogueSO.cs" />
+    <Compile Include="Assets\Scripts\NPC Scripts\DialogueScripts\DialogueManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -135,6 +155,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Scripts\tiny-speech-indicators\README.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
   </ItemGroup>
