@@ -65,6 +65,7 @@ public class NPC_Wander : MonoBehaviour
         isPaused = true;
         anim.Play("Idle");
         yield return new WaitForSeconds(pauseDuration);
+
         target = GetRandomTarget();
         isPaused = false;
         anim.Play("Walk");
@@ -73,6 +74,7 @@ public class NPC_Wander : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
+        if (!enabled) return;
         StartCoroutine(PauseAndPickNewDestination());
     }
 

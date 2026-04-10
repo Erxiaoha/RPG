@@ -131,6 +131,11 @@
     <Compile Include="Assets\Scripts\NPC Scripts\ActorSOs\ActorSO.cs" />
     <Compile Include="Assets\Scripts\NPC Scripts\DialogueSO\DialogueSO.cs" />
     <Compile Include="Assets\Scripts\NPC Scripts\DialogueScripts\DialogueManager.cs" />
+    <Compile Include="Assets\Scripts\NPC Scripts\NPC States\NPC_Idle.cs" />
+    <Compile Include="Assets\Scripts\NPC Scripts\DialogueScripts\DialogueHistoryTracker.cs" />
+    <Compile Include="Assets\Scripts\locationSOs\LocationSO.cs" />
+    <Compile Include="Assets\Scripts\locationSOs\LocationHistoryTracker.cs" />
+    <Compile Include="Assets\Scripts\locationSOs\LocationVisitedTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

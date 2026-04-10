@@ -8,6 +8,9 @@ public class NPC_Talk : MonoBehaviour
     private Animator anim;
     public Animator interactAnim;
 
+    public List<DialogueSO> conversations;
+    public DialogueSO currentConversation;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -26,5 +29,49 @@ public class NPC_Talk : MonoBehaviour
     {
         interactAnim.Play("Close");
         rb.isKinematic = false;
+    }
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("Interact"))
+        {
+            if (GameManager.Instance.DialogueManager.isDialogueActive)
+            {
+                GameManager.Instance.DialogueManager.AdvanceDialogue();
+            }
+            else
+            {
+                if (GameManager.Instance.DialogueManager.CanStartDialogue())
+                {
+                    CheckForNewConversation();
+                    GameManager.Instance.DialogueManager.StartDialogue(currentConversation);
+                }
+            }
+        }
+    }
+
+    private void CheckForNewConversation()
+    {
+        for (int i = 0; i < conversations.Count; i++)
+        {
+            var convo = conversations[i];
+            if(convo != null && convo.IsConditionMet())
+            {
+                currentConversation = convo;
+                if (convo.removeAfterPlay)
+                {
+                    conversations.RemoveAt(i);
+                }
+
+                if(convo.removeTheseOnPlay != null && convo.removeTheseOnPlay.Count > 0)
+                {
+                    foreach (var toRemove in convo.removeTheseOnPlay)
+                    {
+                        conversations.Remove(toRemove);
+                    }
+                }
+                break;
+            }
+        }
     }
 }

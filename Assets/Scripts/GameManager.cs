@@ -5,6 +5,9 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
+    public DialogueManager DialogueManager;
+    public DialogueHistoryTracker DialogueHistoryTracker;
+    public LocationHistoryTracker LocationHistoryTracker;
 
     [Header("Persitent Objects")]
     public GameObject[] persistentObjects;

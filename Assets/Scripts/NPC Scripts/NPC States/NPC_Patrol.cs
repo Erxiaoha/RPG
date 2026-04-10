@@ -23,6 +23,7 @@ public class NPC_Patrol : MonoBehaviour
         StartCoroutine(SetPatrolPoint());
     }
 
+
     private void Update()
     {
         if (isPaused)
@@ -30,6 +31,7 @@ public class NPC_Patrol : MonoBehaviour
             rb.velocity = Vector2.zero;
             return;
         }
+
         Vector2 direction = ((Vector3)target - transform.position).normalized;
         if(direction.x < 0 && transform.localScale.x >0 || direction.x > 0 && transform.localScale.x < 0)
         {
@@ -43,15 +45,15 @@ public class NPC_Patrol : MonoBehaviour
         }
     }
 
-    IEnumerator  SetPatrolPoint()
+    IEnumerator SetPatrolPoint()
     {
         isPaused = true;
         anim.Play("Idle");
         yield return new WaitForSeconds(pauseDuration);
+
         currentPatrolIndex = (currentPatrolIndex + 1) % patrolPoints.Length;
         target = patrolPoints[currentPatrolIndex];
         isPaused = false;
         anim.Play("Walk");
-
     }
 }

@@ -23,7 +23,7 @@ public class ExpManager : MonoBehaviour
     public void GainExperience(int amount)
     {
         currentExp += amount;
-        if(currentExp >= expToLevel)
+        if (currentExp >= expToLevel)
         {
             LevelUp();
         }
@@ -33,10 +33,10 @@ public class ExpManager : MonoBehaviour
     private void Update()
     {
         // test-start
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            GainExperience(2);
-        }
+        //if (Input.GetKeyDown(KeyCode.Return))
+        // {
+        //    GainExperience(2);
+        //}
         // end
     }
 
@@ -64,4 +64,5 @@ public class ExpManager : MonoBehaviour
         expSlider.value = currentExp;
         currentLevelText.text = "Level: " + level;
     }
+
 }
