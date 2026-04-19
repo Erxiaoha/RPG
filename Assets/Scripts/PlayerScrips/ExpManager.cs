@@ -43,11 +43,13 @@ public class ExpManager : MonoBehaviour
     private void OnEnable()
     {
         Enemy_Health.onMonsterDefeated += GainExperience;
+        InventoryManager.OnExperienceGained += GainExperience;
     }
 
     private void OnDisable()
     {
         Enemy_Health.onMonsterDefeated -= GainExperience;
+        InventoryManager.OnExperienceGained -= GainExperience;
     }
 
     private void LevelUp()

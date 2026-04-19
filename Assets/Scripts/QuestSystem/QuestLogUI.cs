@@ -1,0 +1,169 @@
+using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+
+public class QuestLogUI : MonoBehaviour
+{
+    [SerializeField] private QuestManeger questManager;
+    [SerializeField] private TMP_Text questNameText;
+    [SerializeField] private TMP_Text questDescriptionText;
+    [SerializeField] private QuestObjectiveSlot[] objectiveSlots;
+    [SerializeField] private QuestRewardSlot[] rewardSlots;
+
+    private QuestSO questSO;
+
+    [SerializeField] private QuestSO noAvailableQuestSO;
+    [SerializeField] private QuestLogSlot[] questSlots;
+
+    [SerializeField] private CanvasGroup questCanvas;
+
+    [SerializeField] private CanvasGroup accpetCanvasGroup;
+    [SerializeField] private CanvasGroup declineCanvasGroup;
+    [SerializeField] private CanvasGroup completeCanvasGroup;
+
+    #region Show Quest Methods
+    public void ShowQuestOffer(QuestSO incomingQuestSO)
+    {
+        if (questManager.IsQuestAccepted(incomingQuestSO) || questManager.GetCompleteQuest(incomingQuestSO))
+        {
+            questSO = noAvailableQuestSO;
+            SetCanvasState(accpetCanvasGroup, false);
+            SetCanvasState(declineCanvasGroup, true);
+            SetCanvasState(completeCanvasGroup, false);
+        }
+        else
+        {
+            questSO = incomingQuestSO;
+            SetCanvasState(accpetCanvasGroup, true);
+            SetCanvasState(declineCanvasGroup, true);
+            SetCanvasState(completeCanvasGroup, false);
+        }
+        HandleQuestCliked(questSO);
+        SetCanvasState(questCanvas, true);
+    }
+
+    public void ShowQuestTurnIn(QuestSO incomingQuestSO)
+    {
+        questSO = incomingQuestSO;
+        HandleQuestCliked(questSO);
+
+        SetCanvasState(completeCanvasGroup, true);
+        SetCanvasState(accpetCanvasGroup, false);
+        SetCanvasState(declineCanvasGroup, false);
+        SetCanvasState(questCanvas, true);
+    }
+
+    #endregion
+
+    private void SetCanvasState(CanvasGroup group, bool activate)
+    {
+        group.alpha = activate ? 1 : 0;
+        group.blocksRaycasts = activate;
+        group.interactable = activate;
+    }
+
+    #region On Button Cliked Methods
+    public void OnAcceptQuestClicked()
+    {
+        questManager.AcceptQuest(questSO);
+        SetCanvasState(completeCanvasGroup, false);
+        SetCanvasState(accpetCanvasGroup, false);
+        SetCanvasState(declineCanvasGroup, false);
+        RefreshQuestList();
+        HandleQuestCliked(noAvailableQuestSO);
+    }
+
+    public void OnDeclineQuestClicked()
+    {
+        SetCanvasState(questCanvas, false);
+    }
+
+    public void OnCompleteQuestClicked()
+    {
+        questManager.CompleteQuest(questSO);
+        RefreshQuestList();
+        HandleQuestCliked(noAvailableQuestSO);
+        SetCanvasState(completeCanvasGroup, false);
+    }
+    #endregion
+
+
+    public void RefreshQuestList()
+    {
+        List<QuestSO> activeQuests = questManager.GetActiveQuests();
+        for (int i = 0; i < questSlots.Length; i++)
+        {
+            if(i < activeQuests.Count)
+            {
+                questSlots[i].SetQuest(activeQuests[i]);
+            }
+            else
+            {
+                questSlots[i].ClearSlot();
+            }
+        }
+    }
+
+    private void OnEnable()
+    {
+        QuestEvents.OnQuestOfferRequested += ShowQuestOffer;
+        QuestEvents.OnQuestTurnInRequested += ShowQuestTurnIn;
+    }
+
+    private void OnDisable()
+    {
+        QuestEvents.OnQuestOfferRequested -= ShowQuestOffer;
+        QuestEvents.OnQuestTurnInRequested -= ShowQuestTurnIn;
+    }
+
+    public void HandleQuestCliked(QuestSO questSO)
+    {
+        this.questSO = questSO;
+        questNameText.text = questSO.questName;
+        questDescriptionText.text = questSO.questDescription;
+
+        DisplayObjective();
+        DisplayRewards();
+    }
+
+    public void DisplayObjective()
+    {
+        for (int i = 0; i < objectiveSlots.Length; i++)
+        {
+            if(i < questSO.objectives.Count)
+            {
+                var objective = questSO.objectives[i];
+                questManager.UpdateObjectiveProgress(questSO, objective);
+                int currentAmount = questManager.GetCurrentAmount(questSO, objective);
+                string progress = questManager.GetProgressText(questSO, objective);
+                bool isComplete = currentAmount >= objective.requireAmount;
+
+                objectiveSlots[i].gameObject.SetActive(true);
+                objectiveSlots[i].RefreshObjectives(objective.description, progress, isComplete);
+            }
+            else
+            {
+                objectiveSlots[i].gameObject.SetActive(false);
+            }
+        }
+    }
+
+    public void DisplayRewards()
+    {
+        for (int i = 0; i < rewardSlots.Length; i++)
+        {
+            if(i< questSO.rewards.Count)
+            {
+                var reward = questSO.rewards[i];
+                rewardSlots[i].DisplayReward(reward.itemSO.icon, reward.quantity);
+                rewardSlots[i].gameObject.SetActive(true);
+
+            }
+            else
+            {
+                rewardSlots[i].gameObject.SetActive(false);
+            }
+        }
+    }
+}

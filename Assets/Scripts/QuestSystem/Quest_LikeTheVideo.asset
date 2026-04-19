@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3197fe4305e8a4eb20fa645227a900, type: 3}
+  m_Name: Quest_LikeTheVideo
+  m_EditorClassIdentifier: 
+  questName: Like The Video
+  questDescription: Take a moment to hit the like button,since Matt works hard and
+    it makes him feel good when you do it.
+  questLevel: 99
+  objectives:
+  - description: Collect 3 Mushrooms
+    target: {fileID: 11400000, guid: c3f1b748b8d499f4aaf1e4515501ed24, type: 2}
+    requireAmount: 3
+  - description: Visit The Green Hills
+    target: {fileID: 11400000, guid: 1c79bbba390856c46aa6d8452ac89d9b, type: 2}
+    requireAmount: 1
+  - description: Return to Blue  Bob
+    target: {fileID: 11400000, guid: 64a06ff3d28895d4c8ec98a1858ed5ba, type: 2}
+    requireAmount: 1
+  rewards:
+  - itemSO: {fileID: 11400000, guid: 38d525587826c9f46a99e298236ec86a, type: 2}
+    quantity: 10
+  - itemSO: {fileID: 11400000, guid: 17cf4d48b1484834898af6038522a89a, type: 2}
+    quantity: 5
+  - itemSO: {fileID: 11400000, guid: 50298401005cbcb428e7daf2c8d382d3, type: 2}
+    quantity: 5

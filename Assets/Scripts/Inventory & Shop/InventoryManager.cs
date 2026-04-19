@@ -14,6 +14,8 @@ public class InventoryManager : MonoBehaviour
     public Transform player;
     public UseItem useItem;
 
+    public static event Action<int> OnExperienceGained;
+
     private void Awake()
     {
         if(Instance == null)
@@ -50,6 +52,11 @@ public class InventoryManager : MonoBehaviour
         {
             gold += quantity;
             goldText.text = gold.ToString();
+            return;
+        }
+        if (itemSO.isEXP)
+        {
+            OnExperienceGained?.Invoke(quantity);
             return;
         }
 
@@ -131,5 +138,18 @@ public class InventoryManager : MonoBehaviour
             }
         }
         return false;
+    }
+
+    public int GetItemQuantity(ItemSO itemSO)
+    {
+        int total = 0;
+        foreach (var slot in itemSlots)
+        {
+            if(slot.itemSO = itemSO)
+            {
+                total += slot.quantity;
+            }
+        }
+        return total;
     }
 }
