@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public DialogueManager DialogueManager;
     public DialogueHistoryTracker DialogueHistoryTracker;
     public LocationHistoryTracker LocationHistoryTracker;
+    public QuestManeger QuestManager;
 
     [Header("Persitent Objects")]
     public GameObject[] persistentObjects;

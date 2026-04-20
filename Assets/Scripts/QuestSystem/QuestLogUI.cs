@@ -66,6 +66,7 @@ public class QuestLogUI : MonoBehaviour
     #region On Button Cliked Methods
     public void OnAcceptQuestClicked()
     {
+        QuestEvents.OnQuestAccepted?.Invoke(questSO);
         questManager.AcceptQuest(questSO);
         SetCanvasState(completeCanvasGroup, false);
         SetCanvasState(accpetCanvasGroup, false);

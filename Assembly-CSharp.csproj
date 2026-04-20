@@ -145,6 +145,7 @@
     <Compile Include="Assets\Scripts\QuestSystem\QuestBoard.cs" />
     <Compile Include="Assets\Scripts\QuestSystem\QuestEvents.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Enums\Enums.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

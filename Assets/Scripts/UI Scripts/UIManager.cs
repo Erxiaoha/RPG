@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -25,6 +26,8 @@ public class UIManager : MonoBehaviour
         SetMenuState(questMenu, false);
 
         SetMenuState(target, true);
+
+        EventSystem.current.SetSelectedGameObject(null);
 
     }
 

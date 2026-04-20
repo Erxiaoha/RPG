@@ -66,6 +66,13 @@ public class QuestManeger : MonoBehaviour
         questProgress.Remove(questSO);
         completeQuests.Add(questSO);
         // TODO Granting rewards
+        foreach (var objective in questSO.objectives)
+        {
+            if(objective.targetItem != null && objective.requireAmount > 0)
+            {
+                InventoryManager.Instance.RemoveItem(objective.targetItem, objective.requireAmount);
+            }
+        }
         foreach (var reward in questSO.rewards)
         {
             InventoryManager.Instance.AddItem(reward.itemSO, reward.quantity);
